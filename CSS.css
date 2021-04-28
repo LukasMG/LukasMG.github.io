@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+body{background-color:#3a4a41;font-family:'Open Sans',sans-serif}
+.container{background-color:#363636;border-radius:2%;padding:20px}
+input[type=checkbox]{display:none}
+.thelabel{display:none}
+.ddlistitem{display:inline-block;margin-right:10px;margin-top:30px}
+.tablecolor{display:block;margin:auto;background-color:#3a4a41;border-radius:2%;padding:10px;width:35%}
+.formwrap{border:2px solid #3a4a41;border-radius:2%;margin:auto;padding:10px;background-color:#3a4a41;margin-top:15px}
+.submitbutton{display:block;margin:auto}
+.button{border:none;color:#000;margin-top:15px}
+.icon-cart{font-size:20px}
+.button :hover{color:#3a4a41}
+.middlepart{height:80%}
+.tvimage{width:95%;display:block;margin:auto;padding:2%}
+.tv{background-image:url(tv.jpg);width:200px;height:150px;background-size:contain;background-repeat:no-repeat;box-shadow:0 0 18px 18px #000 inset}
+.mainbody{margin:auto;background-color:#3a4a41;padding:10px;border-radius:5%}
+.circlehighlight{display:grid;align-items:center;justify-content:center;width:295px;height:295px;background-color:#000;border-radius:100%;margin-bottom:10px;margin-left:40px}
+.blackfade{width:250px;height:175px;background-color:#000;margin:auto;margin-top:60px}
+.header{background-color:#3a4a41;border:2px solid #3a4a41;border-radius:2%;margin-bottom:10px}
+.greenbox{color:#3a4a41}
+.icon-home{margin-right:5px}
+.icon-bullhorn{margin-right:5px}
+.icon-video-camera{margin-right:5px}
+.icon-stats-bars{margin-right:5px}
+@media screen and (max-width:48em){
+.thelabel{cursor:pointer;display:inline-block;font-size:18px;padding:5px 9px;transition:all .15s ease}
+.theinput:checked+.thelabel{box-shadow:inset 0 1px 2px rgba(0,0,0,.15)}
+.menu{max-height:0;overflow:hidden;transition:all .15s ease}
+.theinput:checked~.menu{max-height:500px}
+.menuhold{list-style:none;margin:8px 0 0 0;width:100px}
+.ddlistitem{border-bottom:1px solid #cecfd5}
+.ddlistitem:last-child{border-bottom:0}
+.dda{display:block;padding:6px 12px;text-decoration:none}
+}
+@media screen and (max-width:80em){
+.tablecolor{width:50%}
+}
+@media screen and (max-width:48em){
+.tablecolor{width:70%}
+}
