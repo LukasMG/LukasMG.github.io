@@ -1,0 +1,51 @@
+.wrapper{
+    background-color:#8fd3fe;
+}
+
+body{
+    background-color:#8fd3fe;
+    height:100vh;
+}
+
+header{
+    margin:15px;
+    background-color: pink;
+}
+
+li{
+    display:inline-block;
+    margin-left:10%;
+    margin-right:10%;
+}
+ul{
+    margin:0px auto;
+}
+.main{
+    display:block;
+}
+
+.left{
+    display:inline-block;
+    width: 49%;
+    max-height: 635px;
+}
+.right{
+    display:inline-block;
+    width: 49%;
+    max-height: 635px;
+}
+
+.mynd{
+    width: 80%;
+}
+
+.text-wrap{
+    transform: translateY(-250px);
+    background-color: pink;
+    padding:60px;
+    margin:0px auto;
+}
+
+.center{
+    margin:0px auto;
+}
